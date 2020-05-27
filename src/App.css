@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+body {
+background-image: url("https://images.unsplash.com/photo-1516528387618-afa90b13e000?ixlib=rb-1.2.1&w=1000&q=80");
+height: 100vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+button{
+  color: rgb(14, 173, 59);
+  text-decoration: white;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+.bankok-btn{
+  background-image: url("https://i.pinimg.com/originals/8c/08/35/8c0835fa61e7ba19fd95d6102d3a084e.jpg");
+height: 250px;
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.paris-btn{
+  background-image: url("https://lh3.googleusercontent.com/proxy/UfL9_BMP8a-q8U1Y2N3_pK523ecBQni5spz2Y8dMRn8p__KrFF-_SCgCPM-Fc58firYxvOWJXHDgqbXZOLpsykv4jzkAzGVf4V2BVFuQfIjy9izTNlZiHscumJ9OvetA6v1N");
+height: 250px;
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.newyork-btn{
+  background-image: url("https://www.beneschlaw.com/images/content/1/4/v1/14735/NewYork-1100x900.jpg");
+height: 250px;
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sing-btn{
+  background-image: url("https://m.hindustantimes.com/rf/image_size_444x250/HT/p2/2017/06/02/Pictures/_af5cd6c6-47a3-11e7-9f7a-23d54b55bc46.jpg");
+height: 250px;
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+
+.city-pic{
+  margin-top: 50px;
+  width: 100%;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+h1 { color: rgb(255, 255, 255); font-family: 'Helvetica Neue', sans-serif; font-size: 50px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
+h2 { color: rgb(194, 19, 19); font-family: 'Open Sans', sans-serif; font-size: 40px; font-weight: 300; line-height: 32px; margin: 0 0 72px; text-align: center; }
+.thoitiet { color: rgb(255, 255, 255); font-family: 'Helvetica Neue', sans-serif; font-size: 85px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
